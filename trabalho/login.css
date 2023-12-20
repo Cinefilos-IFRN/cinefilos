@@ -31,8 +31,8 @@ body{
 .container {
     height: 450px;
     width: 400px;
-    border: 2px solid orange;
-    background-color: orange;
+    border: 2px solid #ffff00;
+    background-color: #ffff00;
     display: flex;
     border-radius: 10px;
     flex-direction: column;
@@ -43,7 +43,7 @@ body{
 .logo{
     width:100%;
     height: 120px;
-    background-color: orange;
+    background-color: #ffff00;
 }
 
 img{
@@ -61,7 +61,7 @@ h2 {
     margin-bottom: 5px;
 }
 .linha{
-    background-color: rgb(166, 30, 109);
+    background-color: #78288c;
     height:2px;
     width: 140px;
     align-self: center;
@@ -92,15 +92,15 @@ button {
     height: 35px;
     border-radius: 15px;
     font-size: 15px;
-    color: rgb(166, 30, 109);
+    color: #78288c;
     background-color:black;
-    box-shadow: 2px 2px 10px 5px rgb(166, 30, 109);
+    box-shadow: 2px 2px 10px 5px #78288c;
     border:none;
     font-family: 'Kanit', sans-serif;
 }
 
 a {
-    color: rgb(166, 30, 109);
+    color: #78288c;
     align-self: center;
     margin: 12px;
     font-family: 'Kanit', sans-serif;
@@ -108,5 +108,5 @@ a {
 button:hover{
     background-color: black;
     color: white; 
-    border: 2px rgb(166, 30, 109) solid;
+    border: 2px #78288c solid;
 }
